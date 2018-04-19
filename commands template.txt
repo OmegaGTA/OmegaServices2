@@ -1,0 +1,20 @@
+const config = require(`../config.json`);
+const Discord = require(`discord.js`);
+
+exports.run = async (client, msg, args) => {
+
+}
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0,
+  helpSection: ''
+};
+
+exports.help = {
+  name: ``,
+  description: ``,
+  usage: ``
+}
